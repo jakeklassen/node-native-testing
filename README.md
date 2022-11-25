@@ -1,6 +1,10 @@
 # Node Native Testing
 
-Using `node --test` and [node-tap](https://node-tap.org/) for reporting.
+Using `node --test` for some testing 🧪.
+
+There are various `test:*` scripts in `package.json` to mess with.
+
+## Using [tap](http://www.node-tap.org/)
 
 Piping the output of `node --test` for color using `tap -`.
 
