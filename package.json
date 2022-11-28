@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node --test **/*.test.js | tap -",
-    "test:ts": "node --loader tsm --test **/*.test.ts | tap -",
+    "test:ts": "node --loader tsx --test **/*.test.ts | tap -",
     "test:utap": "find lib -type f -name '*.test.js' -exec echo \\# utap-src:{} \\; -exec node {} \\; | utap"
   },
   "keywords": [],
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/node": "18.11.9",
     "tap": "^16.3.2",
-    "tsm": "^2.2.2",
+    "tsx": "^3.12.1",
     "utap": "^0.1.3"
   }
 }
