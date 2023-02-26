@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': 18.14.1
+  '@types/node': 18.14.2
   tap: ^16.3.4
   tsx: ^3.12.3
   utap: ^0.2.0
 
 devDependencies:
-  '@types/node': 18.14.1
+  '@types/node': 18.14.2
   tap: 16.3.4
   tsx: 3.12.3
   utap: 0.2.0
@@ -309,8 +309,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@types/node/18.14.1:
-    resolution: {integrity: sha512-QH+37Qds3E0eDlReeboBxfHbX9omAcBCXEzswCu6jySP642jiM3cYSIkU/REqwhCUqXdonHFuBfJDiAJxMNhaQ==}
+  /@types/node/18.14.2:
+    resolution: {integrity: sha512-1uEQxww3DaghA0RxqHx0O0ppVlo43pJhepY51OxuQIKHpjbnYLA7vcdwioNPzIqmC2u3I/dmylcqjlh0e7AyUA==}
     dev: true
 
   /aggregate-error/3.1.0:
