@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@types/node': 18.15.1
   tap: ^16.3.4
-  tsx: ^3.12.4
+  tsx: ^3.12.5
   utap: ^0.2.0
 
 devDependencies:
   '@types/node': 18.15.1
   tap: 16.3.4
-  tsx: 3.12.4
+  tsx: 3.12.5
   utap: 0.2.0
 
 packages:
@@ -1559,8 +1559,8 @@ packages:
     resolution: {integrity: sha512-dagAKX7vaesNNAwOc9Np9C2mJ+7YopF4lk+jE2JML9ta4kZ91Y6UruJNH65bLRYoUROD8EY+Pmi44qQWwXR7sw==}
     dev: true
 
-  /tsx/3.12.4:
-    resolution: {integrity: sha512-IZ0Sqm2AwB3pgE+n/g63jLNoZZXinbXfdvNWB06wdwey+/7dlOurdS1Vb5pBGa7VO9nTjAOODbQgKCgHk7JsPA==}
+  /tsx/3.12.5:
+    resolution: {integrity: sha512-/TLj30xF1zcN9JkoFCyROtIQUi8cRQG+AFchsg5YkWou3+RXxTZS/ffWB3nCxyZPoBqF2+8ohs07N815dNb1wQ==}
     hasBin: true
     dependencies:
       '@esbuild-kit/cjs-loader': 2.4.2
