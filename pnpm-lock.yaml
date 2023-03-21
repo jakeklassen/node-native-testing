@@ -4,12 +4,14 @@ specifiers:
   '@types/node': 18.15.5
   tap: ^16.3.4
   tsx: ^3.12.6
+  typescript: ^5.0.2
   utap: ^0.2.0
 
 devDependencies:
   '@types/node': 18.15.5
-  tap: 16.3.4
+  tap: 16.3.4_typescript@5.0.2
   tsx: 3.12.6
+  typescript: 5.0.2
   utap: 0.2.0
 
 packages:
@@ -1477,7 +1479,7 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /tap/16.3.4:
+  /tap/16.3.4_typescript@5.0.2:
     resolution: {integrity: sha512-SAexdt2ZF4XBgye6TPucFI2y7VE0qeFXlXucJIV1XDPCs+iJodk0MYacr1zR6Ycltzz7PYg8zrblDXKbAZM2LQ==}
     engines: {node: '>=12'}
     hasBin: true
@@ -1516,6 +1518,7 @@ packages:
       tap-parser: 11.0.2
       tap-yaml: 1.0.2
       tcompare: 5.0.7
+      typescript: 5.0.2
       which: 2.0.2
     transitivePeerDependencies:
       - supports-color
@@ -1579,6 +1582,12 @@ packages:
     resolution: {integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==}
     dependencies:
       is-typedarray: 1.0.0
+    dev: true
+
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
+    hasBin: true
     dev: true
 
   /unicode-length/2.1.0:
