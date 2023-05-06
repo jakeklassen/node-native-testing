@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@types/node':
-    specifier: 18.16.4
-    version: 18.16.4
+    specifier: 20.1.0
+    version: 20.1.0
   tap:
     specifier: ^16.3.4
     version: 16.3.4(typescript@5.0.4)
@@ -494,8 +494,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@types/node@18.16.4:
-    resolution: {integrity: sha512-LUhvPmAKAbgm+p/K11IWszLZVoZDlMF4NRmqbhEzDz/CnCuehPkZXwZbBCKGJsgjnuVejotBwM7B3Scrq4EqDw==}
+  /@types/node@20.1.0:
+    resolution: {integrity: sha512-O+z53uwx64xY7D6roOi4+jApDGFg0qn6WHcxe5QeqjMaTezBO/mxdfFXIVAVVyNWKx84OmPB3L8kbVYOTeN34A==}
     dev: true
 
   /aggregate-error@3.1.0:
