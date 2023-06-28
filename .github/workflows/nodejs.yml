@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   test:
-    runs-on: ubuntu-20.04
-    container: node:18-bullseye-slim
+    runs-on: ubuntu-22.04
+    container: node:20-bullseye-slim
 
     steps:
       - name: Check out repository code
@@ -21,7 +21,7 @@ jobs:
 
       - uses: pnpm/action-setup@v2.2.4
         with:
-          version: 7.17.0
+          version: 8.x
           run_install: true
 
       - name: Test
