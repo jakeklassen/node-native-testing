@@ -7,7 +7,7 @@
   "scripts": {
     "test": "node --test **/*.test.js",
     "test:tap": "node --test **/*.test.js | tap -",
-    "test:ts": "node --loader tsx --test **/*.test.ts | tap -",
+    "test:ts": "node --loader tsx --test **/*.test.ts",
     "test:utap": "find lib -type f -name '*.test.js' -exec echo \\# utap-src:{} \\; -exec node {} \\; | utap"
   },
   "keywords": [],
