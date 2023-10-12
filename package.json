@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "20.8.4",
+    "@types/node": "20.8.5",
     "tap": "^18.5.0",
     "tsx": "^3.13.0",
     "typescript": "^5.2.2",
