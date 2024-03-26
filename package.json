@@ -14,10 +14,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "20.11.24",
-    "tap": "^18.7.0",
+    "@types/node": "20.11.30",
+    "tap": "^18.7.1",
     "tsx": "^4.7.1",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.3",
     "utap": "^0.2.0"
   }
 }
