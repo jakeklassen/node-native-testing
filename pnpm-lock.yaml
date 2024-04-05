@@ -15,7 +15,7 @@ devDependencies:
     specifier: ^4.7.1
     version: 4.7.2
   typescript:
-    specifier: ^5.4.3
+    specifier: ^5.4.4
     version: 5.4.4
   utap:
     specifier: ^0.2.0
