@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/node": "20.12.12",
     "tap": "^18.7.1",
-    "tsx": "^4.7.3",
+    "tsx": "^4.10.4",
     "typescript": "^5.4.4",
     "utap": "^0.2.0"
   }
