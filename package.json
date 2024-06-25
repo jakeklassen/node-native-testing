@@ -17,7 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "20.14.8",
-    "tap": "^19.0.1",
+    "tap": "^20.0.0",
     "tsx": "^4.10.4",
     "typescript": "^5.5.2",
     "utap": "^0.2.0"
