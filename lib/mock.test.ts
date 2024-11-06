@@ -17,11 +17,11 @@ describe("mocking", () => {
     const mockGetUser = t.mock.method(githubServiceMock, "getUser");
 
     mockGetUser.mock.mockImplementation(() => {
-      return {
+      return Promise.resolve({
         login: "test",
         id: 123,
         name: "Test User",
-      };
+      });
     });
 
     const user = {
