@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "test": "node --test **/*.test.js",
     "test:tap": "node --test **/*.test.js | tap -",
