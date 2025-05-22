@@ -4,13 +4,13 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "test": "node --test **/*.test.js",
-    "test:tap": "node --test **/*.test.js | tap -",
+    "test": "node --test **/*/*.test.js",
+    "test:tap": "node --test **/*/*.test.js | tap -",
     "test:ts": "node --import tsx --test **/*.test.ts",
     "test:tse": "node --experimental-strip-types --test **/*.test.ts",
     "test:utap": "find lib -type f -name '*.test.js' -exec echo \\# utap-src:{} \\; -exec node {} \\; | utap",
-    "test:coverage": "node --experimental-test-coverage --test **/*.test.js",
-    "test:watch": "node --watch --test **/*.test.js"
+    "test:coverage": "node --experimental-test-coverage --test **/*/*.test.js",
+    "test:watch": "node --watch --test **/*/*.test.js"
   },
   "keywords": [],
   "author": "",
