@@ -15,8 +15,8 @@ importers:
         specifier: ^21.0.0
         version: 21.1.0(@types/node@22.15.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)
       tsx:
-        specifier: ^4.19.4
-        version: 4.20.0
+        specifier: ^4.20.1
+        version: 4.20.1
       typescript:
         specifier: ^5.6.3
         version: 5.8.3
@@ -1290,8 +1290,8 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
-  tsx@4.20.0:
-    resolution: {integrity: sha512-TsmdeXxcZYiJ2MKV7fdq38na0CKyLRtCeMqTeHMmrVXQ/gf5yTeJohh+sgr7MnMGsjeKXzHzy+TwOOTR1arl+Q==}
+  tsx@4.20.1:
+    resolution: {integrity: sha512-JsFUnMHIE+g8KllOvWTrSOwCKM10xLcsesvUQR61znsbrcwZ4U/QaqdymmvTqG5GMD7k2VFv9UG35C4dRy34Ag==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2858,7 +2858,7 @@ snapshots:
       typescript: 5.8.3
       walk-up-path: 4.0.0
 
-  tsx@4.20.0:
+  tsx@4.20.1:
     dependencies:
       esbuild: 0.25.5
       get-tsconfig: 4.10.1
