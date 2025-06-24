@@ -1,6 +1,6 @@
 import * as assert from "node:assert";
 import { describe, it } from "node:test";
-import { multiply, sum } from "./math.js";
+import { multiply, sum } from "./math.ts";
 
 describe("math", () => {
   describe("sum", () => {
