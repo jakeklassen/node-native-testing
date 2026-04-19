@@ -13,10 +13,10 @@ importers:
         version: 24.12.2
       tap:
         specifier: ^21.6.3
-        version: 21.7.1(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        version: 21.7.1(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@6.0.3)
       typescript:
-        specifier: ^5.9.2
-        version: 5.9.3
+        specifier: ^6.0.0
+        version: 6.0.3
 
 packages:
 
@@ -1105,6 +1105,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
@@ -1248,6 +1253,22 @@ snapshots:
       diff: 4.0.4
       make-error: 1.3.6
       typescript: 5.9.3
+      v8-compile-cache-lib: 3.0.1
+
+  '@isaacs/ts-node-temp-fork-for-pr-2009@10.9.7(@types/node@24.12.2)(typescript@6.0.3)':
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      '@tsconfig/node14': 14.1.8
+      '@tsconfig/node16': 16.1.8
+      '@tsconfig/node18': 18.2.6
+      '@tsconfig/node20': 20.1.9
+      '@types/node': 24.12.2
+      acorn: 8.16.0
+      acorn-walk: 8.3.5
+      arg: 4.1.3
+      diff: 4.0.4
+      make-error: 1.3.6
+      typescript: 6.0.3
       v8-compile-cache-lib: 3.0.1
 
   '@isaacs/which@7.0.4':
@@ -1601,6 +1622,16 @@ snapshots:
   '@tapjs/typescript@3.5.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@24.12.2)(typescript@5.9.3)':
     dependencies:
       '@isaacs/ts-node-temp-fork-for-pr-2009': 10.9.7(@types/node@24.12.2)(typescript@5.9.3)
+      '@tapjs/core': 4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - typescript
+
+  '@tapjs/typescript@3.5.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@24.12.2)(typescript@6.0.3)':
+    dependencies:
+      '@isaacs/ts-node-temp-fork-for-pr-2009': 10.9.7(@types/node@24.12.2)(typescript@6.0.3)
       '@tapjs/core': 4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@swc/core'
@@ -2370,7 +2401,7 @@ snapshots:
       yaml: 2.8.3
       yaml-types: 0.4.0(yaml@2.8.3)
 
-  tap@21.7.1(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3):
+  tap@21.7.1(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@6.0.3):
     dependencies:
       '@tapjs/after': 3.3.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/after-each': 4.3.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -2389,7 +2420,7 @@ snapshots:
       '@tapjs/spawn': 4.3.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/stdin': 4.3.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/test': 4.4.5(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@tapjs/typescript': 3.5.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@24.12.2)(typescript@5.9.3)
+      '@tapjs/typescript': 3.5.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@24.12.2)(typescript@6.0.3)
       '@tapjs/worker': 4.3.7(@tapjs/core@4.5.5(@types/node@24.12.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       resolve-import: 2.4.0
     transitivePeerDependencies:
@@ -2462,6 +2493,8 @@ snapshots:
   type-fest@4.41.0: {}
 
   typescript@5.9.3: {}
+
+  typescript@6.0.3: {}
 
   undici-types@7.16.0: {}
 
