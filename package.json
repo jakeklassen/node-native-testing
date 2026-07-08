@@ -16,6 +16,6 @@
   "devDependencies": {
     "@types/node": "26.1.0",
     "tap": "^21.6.3",
-    "typescript": "^6.0.0"
+    "typescript": "^7.0.0"
   }
 }
