@@ -20,8 +20,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "26.6.2",
-    "oxfmt": "^0.68.0",
-    "oxlint": "^1.83.0",
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0",
     "oxlint-tsgolint": "^7.0.2002",
     "tap": "^21.6.3",
     "typescript": "^7.0.2"
