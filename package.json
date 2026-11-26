@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "26.6.6",
+    "@types/node": "26.6.11",
     "oxfmt": "^0.79.0",
     "oxlint": "^1.93.0",
     "oxlint-tsgolint": "^7.0.2002",
